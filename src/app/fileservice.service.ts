@@ -22,8 +22,8 @@ export class FileserviceService {
 
 const bucket = new S3(
       {
-        accessKeyId: 'AKIAIWXWNYOKGUNGZHKA',
-        secretAccessKey: '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',
+        accessKeyId: '',
+        secretAccessKey: '',
         region: 'us-east-1'
       }
     );
@@ -60,8 +60,8 @@ getS3Bucket(){
 	    };
 
 	var s3 = new S3({
-		accessKeyId: 'AKIAIWXWNYOKGUNGZHKA',
-        secretAccessKey: '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',
+		accessKeyId: '',
+        secretAccessKey: '',
         region: 'us-east-1'}
         );
 
